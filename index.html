@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gs TopUp - Official Premium Download</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif}
+body{
+background:linear-gradient(-45deg,#001f0f,#00c853,#00e676,#004d40);
+background-size:400% 400%;
+animation:bg 8s ease infinite;
+color:#fff;
+text-align:center;
+overflow-x:hidden;
+}
+@keyframes bg{
+0%{background-position:0% 50%}
+50%{background-position:100% 50%}
+100%{background-position:0% 50%}
+}
+.container{
+max-width:420px;
+margin:auto;
+padding:25px 20px;
+}
+.logo{
+width:130px;
+border-radius:30px;
+box-shadow:0 20px 50px rgba(0,0,0,0.5);
+animation:float 3s ease-in-out infinite;
+}
+@keyframes float{
+0%,100%{transform:translateY(0)}
+50%{transform:translateY(-12px)}
+}
+h1{margin-top:15px;font-size:28px;font-weight:700}
+.tagline{font-size:14px;opacity:.9;margin-top:5px}
+
+.card{
+margin-top:25px;
+background:rgba(255,255,255,0.1);
+backdrop-filter:blur(15px);
+padding:25px;
+border-radius:25px;
+box-shadow:0 15px 40px rgba(0,0,0,0.4);
+}
+
+.features{
+text-align:left;
+margin-top:15px;
+}
+.features li{
+margin:8px 0;
+font-size:14px;
+}
+
+.stats{
+display:flex;
+justify-content:space-between;
+margin-top:20px;
+font-size:13px;
+opacity:.9;
+}
+
+.download-btn{
+display:block;
+margin-top:25px;
+padding:16px;
+font-size:16px;
+font-weight:600;
+border-radius:50px;
+background:linear-gradient(45deg,#00ff88,#00c853);
+color:#003d1f;
+text-decoration:none;
+box-shadow:0 10px 25px rgba(0,0,0,0.5);
+transition:.3s;
+}
+.download-btn:hover{
+transform:scale(1.05);
+box-shadow:0 15px 35px rgba(0,0,0,0.6);
+}
+
+.progress{
+height:6px;
+background:rgba(255,255,255,0.2);
+border-radius:10px;
+margin-top:20px;
+overflow:hidden;
+}
+.progress-bar{
+height:100%;
+width:0%;
+background:#00ff88;
+animation:load 4s linear infinite;
+}
+@keyframes load{
+0%{width:0%}
+50%{width:80%}
+100%{width:100%}
+}
+
+.footer{
+margin-top:35px;
+font-size:12px;
+opacity:.7;
+}
+.badge{
+display:inline-block;
+margin-top:10px;
+padding:6px 15px;
+border-radius:20px;
+background:#00ff88;
+color:#003d1f;
+font-size:12px;
+font-weight:600;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<img class="logo" src="https://i.postimg.cc/nhV6zZcb/file-0000000006bc71faa5b10d6160885721.png">
+
+<h1>Gs TopUp</h1>
+<p class="tagline">Bangladesh Trusted Free Fire Diamond TopUp App</p>
+
+<span class="badge">Secure • Fast • Official</span>
+
+<div class="card">
+
+<ul class="features">
+<li>✔ Instant Free Fire Diamond TopUp</li>
+<li>✔ Bkash / Nagad / Rocket Payment</li>
+<li>✔ Lowest Price in Bangladesh</li>
+<li>✔ Fast Delivery System</li>
+<li>✔ 24/7 Support</li>
+</ul>
+
+<div class="stats">
+<span>Version: v1.0</span>
+<span>Size: 10.5 MB</span>
+</div>
+
+<a class="download-btn" 
+href="https://github.com/Fuad8hgc/gs-topup/releases/download/v1.0/base.apk">
+⬇ Download APK
+</a>
+
+<div class="progress">
+<div class="progress-bar"></div>
+</div>
+
+<div class="stats">
+<span id="downloads">15,000+</span>
+<span>Happy Users</span>
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 Gs TopUp | Made in Bangladesh 🇧🇩
+</div>
+
+</div>
+
+<script>
+let count = 15000;
+setInterval(()=>{
+count += Math.floor(Math.random()*3);
+document.getElementById("downloads").innerText = count.toLocaleString()+"+";
+},3000);
+</script>
+
+</body>
+  </html>
